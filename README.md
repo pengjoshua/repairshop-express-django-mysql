@@ -1,5 +1,5 @@
 # repairshop-express-django-mysql
-Web application that calculates the length of service for cars in a repair shop. Backends made with Node/Express and with Python/Django.
+Web application that calculates the length of service for cars in a repair shop. Separate servers made with Node/Express and Python/Django.
 
 ## Setup MySQL database
 - install MySQL
