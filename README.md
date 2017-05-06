@@ -4,8 +4,8 @@ Web application that calculates the length of service for cars in a repair shop.
 ## Setup MySQL database
 - install MySQL
 - open a terminal window (command line) and run `mysql.server start` to start MySQL server
-- run `mysql -u root -p` and enter your password to connect to MySQL (by default the password is '')
-- open the `data.sql` file with a code/text editor, select all (all of the sql statements), copy, paste the code in terminal, and run
+- run `mysql -u root -p` and enter your password to connect to MySQL (by default the password is empty, just hit `enter`)
+- open the `data.sql` file with a code/text editor, select all, copy, paste the code (SQL statements) in the terminal, and run
     - the first SQL statements will load data from the repairs.csv file and create the `repairshop` database and `repairs` table
     - the last 2 SQL statements will create new tables (`repairs1` and `repairs2`) from which we will query for specific records
 
