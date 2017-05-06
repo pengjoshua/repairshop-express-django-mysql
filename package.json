@@ -1,0 +1,25 @@
+{
+  "name": "repairshop",
+  "version": "1.0.0",
+  "description": "Web application that calculates the length of service for cars in a repair shop",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "serve": "node server",
+    "test": "mocha test"
+  },
+  "author": "Joshua Peng",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "body-parser": "^1.17.1",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "chai-things": "^0.2.0",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "mocha": "^3.3.0",
+    "mysql": "^2.13.0",
+    "prompt": "^1.0.0"
+  }
+}
