@@ -12,6 +12,8 @@ Web application that calculates the length of service for cars in a repair shop.
 
 ## Run the Node/Express server with MySQL
 - open a new terminal window/tab, navigate to the root directory of this repo, run `npm i` to install all dependencies
+- run `npm test` to run (Mocha/Chai) unit tests
+    - these tests check the calculations and confirm the records
 - run `npm run serve` to run the server
 - open a new terminal window/tab, navigate to the root directory, and run `npm start` to run the command line application
     - the repairshop results will be displayed in the command line
