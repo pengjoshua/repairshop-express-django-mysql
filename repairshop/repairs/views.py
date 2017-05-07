@@ -6,7 +6,7 @@ def index(request):
     return HttpResponse("See terminal command line for repairshop results")
 
 cursor = connection.cursor()
-cursor.execute("select mechanic, type, round(avg, 3) avg, round((avg / nationalavg), 3) ratio from repairs2 order by ratio")
+cursor.execute("select mechanic, type, round(avg, 3) avg, round((avg / nationalavg), 3) ratio from repairs2 order by type, ratio")
 rows = cursor.fetchall()
 print("Name - type - average time - ratio of average")
 for row in rows:

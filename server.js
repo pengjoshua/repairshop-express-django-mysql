@@ -34,7 +34,7 @@ connection.connect((err) => {
 });
 
 app.get('/', (req, res) => {
-  connection.query(`select mechanic, type, round(avg, 3) avg, round((avg / nationalavg), 3) ratio from repairs2 order by ratio`,
+  connection.query(`select mechanic, type, round(avg, 3) avg, round((avg / nationalavg), 3) ratio from repairs2 order by type, ratio`,
     (error, results, fields) => {
     res.json(results);
   });
